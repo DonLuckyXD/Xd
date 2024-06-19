@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-primary);
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    border-bottom: 2px solid #FF5733;
+}
+
+.navbar a{
+    color: #E4F2E7;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.navbar a:hover{
+    background-color: var(--color-primary-dark);
+    color: #FF5733; 
+    transition: .6s;
+}

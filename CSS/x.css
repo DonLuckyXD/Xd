@@ -1,0 +1,20 @@
+/* Estilos para la barra de navegación */
+.main-nav {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-primary);
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Agregué un tipo de fuente más relajado */
+    border-bottom: 2px solid #FF5733; /* Línea inferior de la barra */
+}
+
+.main-nav a {
+    color: #E4F2E7;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: 0.3s; /* Transición suave al pasar el mouse */
+}
+
+.main-nav a:hover {
+    background-color: var(--color-primary-dark);
+    color: #FF5733; /* Cambio de color al pasar el mouse */
+}
